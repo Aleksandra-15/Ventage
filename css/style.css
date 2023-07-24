@@ -1,0 +1,19 @@
+@import url(../css/blocks/header.css);
+@import url(../css/blocks/promo.css);
+@import url(../css/blocks/content.css);
+@import url(../css/blocks/module.css);
+@import url(../css/blocks/img.css);
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+header {
+
+  background-color: #141414;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}

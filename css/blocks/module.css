@@ -1,0 +1,33 @@
+.module-title {
+  margin-bottom: 0px;
+  color: #141414;
+  text-align: center;
+  font-family: Teko;
+  font-size: 59px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 58.65px;
+}
+.module-list p {
+  color: #99823d;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17.85px; /* 148.75% */
+  letter-spacing: 2.975px;
+  text-transform: uppercase;
+}
+.module-background {
+  width: 9px;
+  margin-top: 45px;
+  height: 9px;
+  background: #99823d;
+}
+.module-lists {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 0;
+}

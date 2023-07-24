@@ -1,0 +1,63 @@
+.header-list a{
+    color: #FFF;
+text-align: center;
+font-family: Open Sans;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: 15.3px; 
+padding-left: 6px;
+
+}
+.fa-heart{
+padding-left: 5px;
+}
+.header-list{
+  
+   list-style-type: none;
+}
+.header-item{
+    color: #FFF;
+font-family: Open Sans;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: 34px; /* 309.091% */
+letter-spacing: 2.763px;
+text-transform: uppercase;
+padding-left:27px ;
+}
+.header-item-link{
+    list-style-type: none;
+}
+.header-lists{
+    display: flex;
+    align-items: center;
+
+}
+.information{
+    display: flex;
+    align-items: center;
+
+
+}
+.header-navigete{
+        display: flex;
+    justify-content: flex-end;
+
+}
+.header-left{
+    display:flex;
+   
+}
+.list-item-header {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 280px;
+}
+.logo{
+    position: absolute;
+    left: 24px;
+}
