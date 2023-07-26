@@ -59,5 +59,11 @@ padding-left:27px ;
 }
 .logo{
     position: absolute;
-    left: 24px;
+    left: 0;
+    top:0;
 }
+.header .container{
+    position: relative;
+
+}
+

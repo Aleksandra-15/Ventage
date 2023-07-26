@@ -3,6 +3,9 @@
 @import url(../css/blocks/content.css);
 @import url(../css/blocks/module.css);
 @import url(../css/blocks/img.css);
+@import url(../css/blocks/card-informathin.css);
+@import url(../css/blocks/logotip.css);
+@import url(../css/blocks/footer.css);
 a {
   text-decoration: none;
 }
@@ -14,6 +17,6 @@ header {
   background-color: #141414;
 }
 .container {
-  width: 1140px;
+  width: 1300px;
   margin: 0 auto;
 }
