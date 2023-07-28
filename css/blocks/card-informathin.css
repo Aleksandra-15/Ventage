@@ -39,8 +39,6 @@
   justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
-  width: 970px;
-  margin: 0 auto;
 }
 .card-informathin-span-subtitel {
   color: #99823d;
@@ -69,3 +67,4 @@
   border: 0;
   margin: 90px 400px;
 }
+

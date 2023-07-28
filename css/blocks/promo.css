@@ -2,9 +2,7 @@
   background: #141414;
   position: relative;
 }
-.logos {
-  z-index: 3;
-}
+
 .promo-subtitle {
   color: #99823d;
   font-family: Open Sans;
@@ -65,9 +63,27 @@
 }
 .promo-box-padding {
   padding: 58px;
-  z-index: 1;
   position: absolute;
+  top: 60px;
+  right: 136px;
   background-color: #fff;
   width: 590px;
-  height: 455px;
+}
+.promo-list a {
+  color: #000;
+  font-family: Open Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 68px; /* 566.667% */
+  letter-spacing: 2.975px;
+  text-transform: uppercase;
+}
+.promo-lists {
+  display: flex;
+  justify-content: flex-start;
+  background: #ebebeb;
+}
+.promo-list {
+  padding-right: 37px;
 }

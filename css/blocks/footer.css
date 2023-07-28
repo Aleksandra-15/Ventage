@@ -3,7 +3,7 @@ input {
   height: 68px;
   background: #fff;
   color: #3d3d3d;
-  
+
   font-family: Open Sans;
   font-size: 11px;
   font-style: normal;
@@ -12,7 +12,7 @@ input {
   letter-spacing: 2.763px;
   text-transform: uppercase;
   border: 0;
-  margin-top: 17px;
+  margin-right: 17px;
 }
 .input-btn {
   width: 155px;
@@ -37,6 +37,9 @@ input {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  position: relative;
+  top: 100px;
+  left: 65px;
 }
 .footer-lists {
   display: flex;
@@ -84,15 +87,21 @@ input {
 .footer-div-black {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
+  background: #141414;
+  height: 239px;
+  position: relative;
 }
 .footer-div {
   background: #3d3d3d;
+  position: relative;
+  top: 70px;
 }
 .list-item-footer {
-    position: relative;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 280px;
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 437px;
+  padding: 40px 100px;
 }
