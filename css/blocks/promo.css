@@ -2,7 +2,10 @@
   background: #141414;
   position: relative;
 }
-
+.logo {
+  position: absolute;
+  z-index: 1;
+}
 .promo-subtitle {
   color: #99823d;
   font-family: Open Sans;
@@ -83,7 +86,19 @@
   display: flex;
   justify-content: flex-start;
   background: #ebebeb;
+  margin-top: -3px;
 }
 .promo-list {
   padding-right: 37px;
+}
+.logos {
+  position: relative;
+}
+.promo_background {
+  position: absolute;
+  bottom: 0;
+  right: 68px;
+  width: 489px;
+  height: 329px;
+  background: #99823d;
 }

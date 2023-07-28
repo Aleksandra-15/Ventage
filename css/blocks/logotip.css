@@ -1,15 +1,15 @@
-.logotip-list-text{
-    background: #99823D;
-    width: 11px;
+.logotip-list-text {
+  background: #99823d;
+  width: 11px;
   height: 11px;
   margin: 68px auto;
 }
-.logotip-lists{
-    display: flex;
-    align-items:center;
-
+.logotip-lists {
+  display: flex;
+  align-items: center;
 }
-.logotip{
-    background-color:rgb(229, 229, 229);
-    position: relative;
+.logotip {
+  background-color: rgb(229, 229, 229);
+  position: relative;
+  padding-bottom: 29px;
 }

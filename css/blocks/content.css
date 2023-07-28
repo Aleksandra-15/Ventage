@@ -76,8 +76,8 @@
   font-weight: 400;
   line-height: 25.5px; /* 150% */
 }
-.content-de-centering{
-  display:flex;
+.content-de-centering {
+  display: flex;
   align-items: center;
   padding: 30px;
 }

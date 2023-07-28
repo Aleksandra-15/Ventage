@@ -1,3 +1,6 @@
+footer {
+  background-color: #141414;
+}
 input {
   width: 860px;
   height: 68px;
@@ -88,7 +91,7 @@ input {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  background: #141414;
+
   height: 239px;
   position: relative;
 }
