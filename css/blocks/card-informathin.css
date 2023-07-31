@@ -52,6 +52,10 @@
   margin: 47%;
 }
 .btn {
+  transition-property: transform;
+  transition: 1s;
+  animation:  pulse 2s 2s;
+
   background: #99823d;
   width: 392px;
   height: 68px;
@@ -66,4 +70,10 @@
   text-transform: uppercase;
   border: 0;
   margin: 90px 400px;
+}
+.btn:hover{
+  cursor: pointer;
+  translate: rotate(1.2);
+
+  animation:  swing 2s;
 }

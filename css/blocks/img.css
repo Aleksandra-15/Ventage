@@ -14,6 +14,8 @@
   height: 81%;
 }
 .img-list {
+  animation-name: jackInTheBox 50s;
+  visibility: visible;
   position: relative;
   display: flex;
   justify-content: center;

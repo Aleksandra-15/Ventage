@@ -48,6 +48,10 @@
   background: #99823d;
   width: 216px;
   height: 68px;
+  transition-property: transform;
+  transition: 1s;
+  cursor: pointer;
+  animation: bounceInDown 2s  ;
 }
 .promo-btn-black {
   color: #fff;
@@ -63,7 +67,12 @@
   background: #141414;
   width: 216px;
   height: 68px;
+  transition-property: transform;
+  transition: 1s;
+  cursor: pointer;
+  animation: bounceInUp 2s;
 }
+
 .promo-box-padding {
   padding: 58px;
   position: absolute;

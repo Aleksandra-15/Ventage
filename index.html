@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ventage</title>
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Teko:wght@400;700&display=swap"
       rel="stylesheet" />
     <link
@@ -58,25 +61,24 @@
       <div class="container">
         <img class="logos" src="./img/interyer.png" alt="interyer" />
         <div class="promo-box">
-          <div class="promo-box-padding">
-            <h2 class="promo-subtitle">vantage studio</h2>
-            <h1 class="promo-title">Your vision, our <br />expertise!</h1>
-            <p class="promo-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing <br />
-              elit. Proin vehicula, libero vel egestas fringilla.
-            </p>
-            <button class="promo-btn">explore</button>
-            <button class="promo-btn-black">let's chat</button>
-          </div>
-          <div class="promo_background"></div>
-          <ul class="promo-lists">
-            <li class="promo-list"><a href="#">facebook</a></li>
-            <li class="promo-list"><a href="#">twitter</a></li>
-            <li class="promo-list"><a href="#">instagram</a></li>
-            <li class="promo-list"><a href="#">pinterest</a></li>
-          </ul>
+          <div class="promo-box-padding data-aos="fade-right"">
+          <h2 class="promo-subtitle">vantage studio</h2>
+          <h1 class="promo-title">Your vision, our <br />expertise!</h1>
+          <p class="promo-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing <br />
+            elit. Proin vehicula, libero vel egestas fringilla.
+          </p>
+          <button class="promo-btn">explore</button>
+          <button class="promo-btn-black">let's chat</button>
         </div>
+        <div class="promo_background data-aos="fade-left">
       </div>
+      <ul class="promo-lists">
+        <li class="promo-list"><a href="#">facebook</a></li>
+        <li class="promo-list"><a href="#">twitter</a></li>
+        <li class="promo-list"><a href="#">instagram</a></li>
+        <li class="promo-list"><a href="#">pinterest</a></li>
+      </ul>
     </section>
     <main>
       <section class="content">
@@ -154,7 +156,7 @@
       <section class="img">
         <div class="container">
           <ul class="img-lists">
-            <li class="img-list">
+            <li class="img-list wow animate__animated  animate__jackInTheBox  animate__slower ">
               <img src="./img/interior-kitchen.png" alt="kitchen" />
               <h4 class="img-titel">new</h4>
               <h3 class="img-subtitel">interior design</h3>
@@ -165,7 +167,7 @@
                 <div class="line"></div>
               </div>
             </li>
-            <li class="img-list">
+            <li class="img-list wow animate__animated   animate__jackInTheBox animate__slower">
               <img src="./img/interior-entrance.png" alt="interior-entrance" />
               <h4 class="img-titel">new</h4>
               <h3 class="img-subtitel">Architecture</h3>
@@ -176,7 +178,7 @@
                 <div class="line"></div>
               </div>
             </li>
-            <li class="img-list">
+            <li class="img-list wow animate__animated animate__jackInTheBox   animate__slower">
               <img src="./img/living_room_interior.png" alt="imnd" />
               <h4 class="img-titel">new</h4>
               <h3 class="img-subtitel">interior design</h3>
@@ -525,5 +527,6 @@
     <script
       src="https://kit.fontawesome.com/efe48aa025.js"
       crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </body>
 </html>
