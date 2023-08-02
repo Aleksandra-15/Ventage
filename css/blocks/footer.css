@@ -96,9 +96,10 @@ input {
   position: relative;
 }
 .footer-div {
-  background: #3d3d3d;
-  position: relative;
-  top: 70px;
+  background: #141414ed;
+  position: absolute;
+  top: -160px;
+  width: 100%;
 }
 .list-item-footer {
   position: absolute;

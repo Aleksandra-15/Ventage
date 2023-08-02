@@ -76,10 +76,11 @@
 .promo-box-padding {
   padding: 58px;
   position: absolute;
-  top: 60px;
-  right: 136px;
+  top: 55px;
+  right: 102px;
   background-color: #fff;
   width: 590px;
+  z-index: 20;
 }
 .promo-list a {
   color: #000;
@@ -106,7 +107,7 @@
 .promo_background {
   position: absolute;
   bottom: 0;
-  right: 68px;
+  right: -1px;
   width: 489px;
   height: 329px;
   background: #99823d;
